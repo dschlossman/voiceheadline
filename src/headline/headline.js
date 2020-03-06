@@ -17,16 +17,7 @@ class Headline extends React.Component {
     this.setState({voiceText: event.target.value})
   }
 
-  handleButton = (event) => {
-  	var c = document.getElementById('target');
-  	var t = c.getContext('test');
-  	window.open('', document.getElementById('2d').toDataURL());
 
-
-
-  	window.open('', document.getElementById('target').toDataURL());
-
-  }
 
 
 
@@ -44,7 +35,6 @@ class Headline extends React.Component {
 				
 				<div id="test" className="text input">
 				<input type="text" name="voiceText" value={this.state.voiceText} placeholder="Hello World" onChange={this.handleChange} />
-				<input type="button" name="button" label="button" onClick={this.handleButton} />
 				</div>
 				<div>
 					<FontSizeChanger
@@ -67,9 +57,7 @@ class Headline extends React.Component {
 					  }}
 					/>
 				</div>
-				<canvas id="canvas" width="450" height="450">
 
-				</canvas>
 			</div>
 
 
