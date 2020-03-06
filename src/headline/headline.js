@@ -26,7 +26,7 @@ class Headline extends React.Component {
 			<div className="container">
 					<div className="title">
 					<h1> Voice headline generator </h1>
-					<h3> Enter text below and see the mageic..</h3>
+					<h3> Enter text below and see the magic..</h3>
 					</div>
 					<div id="target" className="voiceBox"> 
 						<p className="content" style={this.state.fontSize}> {this.state.voiceText} </p> 
